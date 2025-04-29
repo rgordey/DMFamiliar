@@ -1,6 +1,0 @@
-@PlayerWeb_HostAddress = http://localhost:5122
-
-GET {{PlayerWeb_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

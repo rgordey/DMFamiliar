@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36017.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerWeb", "PlayerWeb\PlayerWeb.csproj", "{7B99352B-5556-4538-8210-C4119AF78EEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicWeb", "PublicWeb\PublicWeb.csproj", "{CCB9FBB8-991F-44B9-85D9-77F642894CBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{C6C22027-BB47-41DE-9DE5-E20838BF006F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7B99352B-5556-4538-8210-C4119AF78EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7B99352B-5556-4538-8210-C4119AF78EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7B99352B-5556-4538-8210-C4119AF78EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7B99352B-5556-4538-8210-C4119AF78EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB9FBB8-991F-44B9-85D9-77F642894CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB9FBB8-991F-44B9-85D9-77F642894CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB9FBB8-991F-44B9-85D9-77F642894CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB9FBB8-991F-44B9-85D9-77F642894CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C22027-BB47-41DE-9DE5-E20838BF006F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C22027-BB47-41DE-9DE5-E20838BF006F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C22027-BB47-41DE-9DE5-E20838BF006F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C22027-BB47-41DE-9DE5-E20838BF006F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
